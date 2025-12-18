@@ -1101,5 +1101,21 @@
     drawer?.addEventListener("click", (e)=> { if(e.target === drawer) closeDrawer(); });
     drawerLinks.forEach(a => a.addEventListener("click", closeDrawer));
   </script>
+<!-- ========================================================= -->
+  <!--   ⭐ NUEVO CHATBOT: TYPEBOT BUBBLE (ACTIVO)               -->
+  <!-- ========================================================= -->
+
+  <script type="module">
+    import Typebot from "https://cdn.jsdelivr.net/npm/@typebot.io/js@0/dist/web.js";
+
+    Typebot.initBubble({
+      typebot: "flow-lin-q-demo-lead-a30pkgm",
+      theme: {
+        button: { backgroundColor: "#4f46e5" },
+        chatWindow: { backgroundColor: "#171923" }
+      }
+    });
+  </script>
+  
 </body>
 </html>
